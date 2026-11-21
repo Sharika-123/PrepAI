@@ -120,3 +120,5 @@ GitHub: https://github.com/Sharika-123
 ## 📸 Project Screenshot
 
 ![PrepAI Dashboard](screenshots/screenshot1.png.png)
+
+![PrepAI Question Section](screenshots/screenshot2.png.png)
