@@ -116,3 +116,7 @@ Open the local URL displayed by Vite.
 **Sharika Rafiq**
 
 GitHub: https://github.com/Sharika-123
+
+## 📸 Project Screenshot
+
+![PrepAI Dashboard](screenshots/screenshot1.png.png)
