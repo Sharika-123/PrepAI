@@ -1,39 +1,39 @@
+# PrepAI – Interview Preparation Assistant
 
-# PrepAI – AI Interview Preparation Assistant
+PrepAI is a full-stack web application designed to help students prepare for technical interviews through subject-wise questions, difficulty levels, answer explanations, and performance tracking.
 
-PrepAI is a full-stack web application designed to help students prepare for technical interviews. It provides subject-wise interview questions, difficulty levels, answer explanations, and performance tracking.
-
-## Features
+## 🚀 Features
 
 - Subject-wise technical interview questions
-- Three difficulty levels: Beginner, Intermediate, and Advanced
-- Answer explanations for each question
-- Correct and incorrect answer tracking
-- Score and accuracy calculation
+- 8 technical subjects
+- Beginner, Intermediate, and Advanced difficulty levels
+- Show and hide answer explanations
+- Track correct and incorrect answers
+- Automatic score and accuracy calculation
 - Practice progress bar
-- Reset score option
-- Automatic progress saving using Local Storage
+- Reset practice score
+- Save progress using browser Local Storage
 - Responsive user interface
 
-## Technologies Used
+## 💻 Technologies Used
 
-### Frontend
+**Frontend**
 - React.js
 - JavaScript
-- HTML
-- CSS
+- HTML5
+- CSS3
 - Vite
 
-### Backend
+**Backend**
 - Node.js
 - Express.js
 - REST API
 - CORS
 
-### Storage
+**Storage**
 - Browser Local Storage
 
-## Subjects Available
+## 📚 Subjects Available
 
 1. Python
 2. JavaScript
@@ -44,7 +44,7 @@ PrepAI is a full-stack web application designed to help students prepare for tec
 7. Operating Systems
 8. Computer Networks
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 AI-Interview-Assistant/
@@ -53,17 +53,35 @@ AI-Interview-Assistant/
 ├── frontend/
 │   ├── src/
 │   │   ├── App.jsx
-│   │   └── App.css
+│   │   ├── App.css
+│   │   └── main.jsx
 │   └── package.json
+├── README.md
 ├── package.json
-└── README.md
+└── .gitignore
 ```
 
-## How to Run the Project
+## ⚙️ How to Run Locally
 
-### 1. Start the Backend
+### Prerequisites
+- Node.js
+- npm
+- VS Code
 
-Open a terminal in the main project folder and run:
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Sharika-123/PrepAI.git
+cd PrepAI
+```
+
+### 2. Install backend dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the backend
 
 ```bash
 node backend/server.js
@@ -71,30 +89,30 @@ node backend/server.js
 
 Backend runs at:
 
-http://localhost:5000
+`http://localhost:5000`
 
-### 2. Start the Frontend
+### 4. Start the frontend
 
-Open another terminal and run:
+Open a second terminal:
 
 ```bash
 cd frontend
-npm.cmd install
-npm.cmd run dev
+npm install
+npm run dev
 ```
 
-Open the local URL displayed by Vite, usually:
+Open the local URL displayed by Vite.
 
-http://localhost:5173
-
-## Future Improvements
+## 🔮 Future Improvements
 
 - AI-powered interview question generation
-- MongoDB integration
-- User authentication
 - Personalized interview recommendations
+- User authentication
+- MongoDB integration
 - More technical subjects and questions
 
-## Author
+## 👩‍💻 Author
 
-Developed as a full-stack software development project.
+**Sharika Rafiq**
+
+GitHub: https://github.com/Sharika-123
